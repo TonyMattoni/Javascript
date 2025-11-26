@@ -1,13 +1,10 @@
-let uzivatel = {
-    id: "id1",
-    username: "uzivatel1",
-    password: "tvoje heslo",
-    active: true,
-    count: 23,
+let text = prompt("zadej text: ");
+function delkaTextu(text){
+    let delka = 0;
+ 
+    for (let i = 0; text[i] !== undefined; i++){
+        delka++;
+ 
+    }
+    return delka;
 }
-
-console.log(uzivatel.id);
-console.log(uzivatel.active);
-
-
-
